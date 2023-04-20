@@ -6,7 +6,6 @@
 .header {
   width: 500px;
   margin: 0 auto;
-  display: block;
   text-align: right;
 }
 .header img {
@@ -22,12 +21,10 @@
   }
 }
 .centered-main {
-  display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 .task {
-  display: inline-block;
   flex-grow: 1;
 }
 .new-task__wrapper {

@@ -1,7 +1,6 @@
 /* Basic Style */
-body {
+.wrapper {
   background-color: #f8f8f8;
-  color: #333;
   font-family: Lato, sans-serif;
 }
 .header {
@@ -13,7 +12,7 @@ body {
 .header img {
   width: 100%;
 }
-.header .more_inf {
+.header .more_info {
   font-family: fantasy, cursive;
 }
 
@@ -60,8 +59,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,8 +85,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-h3[for="new-task"] {
-  display: block;
+.new-task {
   margin: 0 0 20px;
 }
 input#new-task {

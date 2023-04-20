@@ -1,4 +1,8 @@
 /* Basic Style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 .wrapper {
   background-color: #f8f8f8;
   font-family: Lato, sans-serif;
@@ -79,7 +83,6 @@ input[type="text"]:focus {
   color: #333;
 }
 
-/* New Task */
 .add-task {
   margin: 0 0 20px;
 }

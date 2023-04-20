@@ -21,7 +21,7 @@
     text-align: center;
   }
 }
-.centered-main__page-element {
+.centered-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -30,7 +30,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row__wrapper {
+.new-task__wrapper {
   display: flex;
 }
 ul {
@@ -84,7 +84,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.new-task {
+.add-task {
   margin: 0 0 20px;
 }
 
@@ -134,11 +134,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
